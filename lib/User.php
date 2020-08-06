@@ -13,7 +13,7 @@ class User extends Model {
     public    $id       = NULL;
     protected function CreateTable()
     {
-        /*$this->db->query("CREATE TABLE IF NOT EXISTS `user` (
+        $this->db->query("CREATE TABLE IF NOT EXISTS `user` (
                           `id` int(10) unsigned NOT NULL auto_increment,
                           `login` varchar(128) NOT NULL default '',
                           `pass` varchar(32) NOT NULL default '',
@@ -87,20 +87,11 @@ class User extends Model {
        if($this->IssetLogin($login)) return MsgErr('Логин занят');
        $pass = $this->CreateHash($login, $pass);
        $time = time();
-       $isOk = $this->db->query("INSERT INTO ?#
-                                    SET
-                                        login = ?,
-                                        pass = ?,
-                                        mail = ?,
-                                        regdate = ?d,
-                                        `group` = ?d",
-                                        self::TABLE,
-                                        $login,
-                                        $pass,
-                                        $mail,
-                                        $time,
-                                        $group);
-       return $isOk ? true : MsgErr('Чо-то ошибка');
+       
+       $stmt = $this->db->prepare("INSERT INTO `" . self::TABLE . "` (`login`, `pass`, `mail`, `regdate`, `group`) VALUES (?,?,?,?,?)");
+       $stmt->execute([$login,$pass,$mail,$time,$group]);
+       
+       return true;
     }
     
     /**
@@ -110,15 +101,11 @@ class User extends Model {
      */
     public function IssetLogin($login)
     {
-        $hasUser = $this->db->SelectCell("SELECT 
-                                                    * 
-                                              FROM 
-                                                    ?# 
-                                              WHERE 
-                                                    login = ?
-                                              ", 
-                                               self::TABLE, $login);
-        return $hasUser ? $hasUser[0] : false;
+        $stmt = $this->db->prepare("SELECT * FROM `" . self::TABLE . "` WHERE login = ?");
+        $stmt->execute([$login]);
+        $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        return !empty($data) ? $data[0] : false;
     }
     
     /**
