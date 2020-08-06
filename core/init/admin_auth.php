@@ -8,8 +8,8 @@
         $g_config['mainTpl']            = 'admin/main_template';
         define('IS_ADMIN_AUTH', false);
         // Стартуем все БД ??????этот инит подключается раньше чем БД
-        require_once BASEPATH . 'lib/Db/Db.php';
-        new Db();
+        require_once BASEPATH . 'lib/Db/Db_pdo.php';
+        new Db_pdo();
 
         require_once BASEPATH . 'lib/Auth.php'; //!
 		if((isset($_SESSION['elite_admin_login']) && isset($_SESSION['elite_admin_pwdhash'])) OR (isset($_POST['admin_login']) && isset($_POST['admin_pwd'])))
