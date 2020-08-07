@@ -115,13 +115,11 @@ window.ec.config.enable_canonical_urls = true;
     </head>
     <body>
         <div class="wrap">
-            <?php IncludeCom('tpl_coms/head')?>
+            <?# IncludeCom('tpl_coms/head')?>
             <!--контент-->
-            <div id="content">
                 <?= $content?>
-            </div>
             <!--контент закончился-->
-            <?php IncludeCom('tpl_coms/footer')?>
+            <?# IncludeCom('tpl_coms/footer')?>
         </div>
         </div>
     
