@@ -38,7 +38,7 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='jquery-swiper-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/cherry-testi/includes/swiper/css/swiper.min.css?ver=3.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-swiper-css'  href='../domains/gpsite/i/css/jquery-swiper-css' type='text/css' media='all' />
 <link rel='stylesheet' id='cherry-testi-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/cherry-testi/public/assets/css/style.css?ver=1.1.0.5' type='text/css' media='all' />
 <link rel='stylesheet' id='cherry-services-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/cherry-services-list/public/assets/css/cherry-services.css?ver=1.4.6' type='text/css' media='all' />
 <link rel='stylesheet' id='cherry-services-theme-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/cherry-services-list/public/assets/css/cherry-services-theme.css?ver=1.4.6' type='text/css' media='all' />
@@ -55,14 +55,14 @@ body.error404 { background-image: url(  ); }.header-wrapper { background-image: 
 </style>
 <link rel='stylesheet' id='dashicons-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-includes/css/dashicons.min.css?ver=4.9.8' type='text/css' media='all' />
 <link rel='stylesheet' id='cherry-projects-styles-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/cherry-projects/public/assets/css/styles.css?ver=1.2.11' type='text/css' media='all' />
-<link rel='stylesheet' id='cherry-google-fonts-ascendio-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%2C400italic&#038;subset=latin&#038;ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='cherry-google-fonts-ascendio-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%2C400italic&#038;subset=latin&#038;ver=4.9.8' type='text/css' media='all' />
 <link rel='stylesheet' id='cherry-handler-css-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/jet-menu/cherry-framework/modules/cherry-handler/assets/css/cherry-handler-styles.min.css?ver=1.5.10' type='text/css' media='all' />
 <link rel='stylesheet' id='jet-elements-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=1.10.0' type='text/css' media='all' />
 <link rel='stylesheet' id='jet-elements-skin-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/jet-elements/assets/css/jet-elements-skin.css?ver=1.10.0' type='text/css' media='all' />
 <link rel='stylesheet' id='jet-slider-pro-css-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/jet-elements/assets/css/lib/slider-pro/slider-pro.min.css?ver=1.3.0' type='text/css' media='all' />
 <link rel='stylesheet' id='jet-juxtapose-css-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/jet-elements/assets/css/lib/juxtapose/juxtapose.css?ver=1.3.0' type='text/css' media='all' />
 <link rel='stylesheet' id='jet-menu-public-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/jet-menu/assets/public/css/public.css?ver=1.4.4' type='text/css' media='all' />
-<link rel='stylesheet' id='cherry-google-fonts-jet_menu_options-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A700%2C400&#038;subset=latin&#038;ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='cherry-google-fonts-jet_menu_options-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A700%2C400&#038;subset=latin&#038;ver=4.9.8' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-icons-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=3.3.0' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-animations-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.0.12' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.0.12' type='text/css' media='all' />
