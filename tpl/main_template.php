@@ -114,14 +114,10 @@ window.ec.config.enable_canonical_urls = true;
         <!-- extraPacker -->
     </head>
     <body>
-        <div class="wrap">
             <?# IncludeCom('tpl_coms/head')?>
             <!--контент-->
                 <?= $content?>
             <!--контент закончился-->
             <?# IncludeCom('tpl_coms/footer')?>
-        </div>
-        </div>
-    
     </body>
 </html>
