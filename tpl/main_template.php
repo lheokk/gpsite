@@ -38,7 +38,7 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='jquery-swiper-css'  href='../domains/gpsite/i/css/jquery-swiper-css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-swiper-css'  href='<?= Root('i/css/jquery-swiper-css') ?>' type='text/css' media='all' />
 <link rel='stylesheet' id='cherry-testi-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/cherry-testi/public/assets/css/style.css?ver=1.1.0.5' type='text/css' media='all' />
 <link rel='stylesheet' id='cherry-services-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/cherry-services-list/public/assets/css/cherry-services.css?ver=1.4.6' type='text/css' media='all' />
 <link rel='stylesheet' id='cherry-services-theme-css'  href='https://ld-wp.template-help.com/wordpress_58924_e_v3/wp-content/plugins/cherry-services-list/public/assets/css/cherry-services-theme.css?ver=1.4.6' type='text/css' media='all' />
