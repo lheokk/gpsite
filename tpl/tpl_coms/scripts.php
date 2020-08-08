@@ -17,24 +17,24 @@
     var wpcf7 = {"apiSettings":{"root":"https:\/\/ld-wp.template-help.com\/wordpress_58924_e_v3\/wp-json\/contact-form-7\/v1", "namespace":"contact-form-7\/v1"}, "recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
     /* ]]> */
 </script>
-<script type='text/javascript' src='<?= Root('i/css/jquery/script.js') ?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jquery/widget.min.js') ?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jquery/hoverIntent.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jquery/super-guacamole.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jquery/swiper.jquery.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jquery/anime.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jquery/tilter.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jquery.stickup.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jquery.ui.totop.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery/script.js') ?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery/widget.min.js') ?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery/hoverIntent.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery/super-guacamole.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery/swiper.jquery.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery/anime.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery/tilter.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery.stickup.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery.ui.totop.min.js')?>'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var ascendio = {"ajaxurl":"https:\/\/ld-wp.template-help.com\/wordpress_58924_e_v3\/wp-admin\/admin-ajax.php", "labels":{"totop_button":"Top", "hidden_menu_items_title":"More"}};
     /* ]]> */
 </script>
-<script type='text/javascript' src='<?= Root('i/css/theme-script.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jquery.magnific-popup.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/cherry-projects-single-scripts.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/cherry-post-formats.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/theme-script.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery.magnific-popup.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/cherry-projects-single-scripts.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/cherry-post-formats.min.js')?>'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var jet_subscribe_form_ajax = {"action":"jet_subscribe_form_ajax", "nonce":"74b0528f35", "type":"POST", "data_type":"json", "is_public":"true", "sys_messages":{"invalid_base_data":"Unable to process the request without nonce or server error", "no_right":"No right for this action", "invalid_nonce":"Stop CHEATING!!!", "access_is_allowed":"Access is allowed", "wait_processing":"Please wait, processing the previous request"}};
@@ -43,61 +43,61 @@
     var jet_menu_restore_options_ajax = {"action":"jet_menu_restore_options_ajax", "nonce":"c02f8e615e", "type":"POST", "data_type":"json", "is_public":"false", "sys_messages":{"invalid_base_data":"Unable to process the request without nonche or server error", "no_right":"No right for this action", "invalid_nonce":"Stop CHEATING!!!", "access_is_allowed":"", "wait_processing":"Please wait, processing the previous request"}};
     /* ]]> */
 </script>
-<script type='text/javascript' src='<?= Root('i/css/cherry-handler.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jet-menu-plugin.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/cherry-handler.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jet-menu-plugin.js')?>'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var jetMenuPublicSettings = {"menuSettings":{"jetMenuRollUp":"false", "jetMenuMouseleaveDelay":"500", "jetMenuMegaWidthType":"selector", "jetMenuMegaWidthSelector":".header-container_wrap", "jetMenuMegaOpenSubType":"hover", "jetMenuMobileBreakpoint":"768"}};
     /* ]]> */
 </script>
-<script type='text/javascript' src='<?= Root('i/css/jet-menu-public-script.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/wp-embed.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jquery.waypoints.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/imagesloaded.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/salvattore.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/cherry-projects-plugin.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jet-menu-public-script.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/wp-embed.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jquery.waypoints.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/imagesloaded.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/salvattore.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/cherry-projects-plugin.js')?>'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var cherryProjectsObjects = {"ajax_url":"https:\/\/ld-wp.template-help.com\/wordpress_58924_e_v3\/wp-admin\/admin-ajax.php", "cascadingListMap":[1, 2, 2, 3, 3, 3, 4, 4, 4, 4], "cascadingListMapDevice":{"laptop":[1, 2, 2, 3, 3, 3, 4, 4, 4, 4], "album_tablet":[1, 2, 2, 3, 3, 3], "portrait_tablet":[1, 2, 2], "mobile":[1]}};
     var cherryProjectsObjects = {"ajax_url":"https:\/\/ld-wp.template-help.com\/wordpress_58924_e_v3\/wp-admin\/admin-ajax.php", "cascadingListMap":[1, 2, 2, 3, 3, 3, 4, 4, 4, 4], "cascadingListMapDevice":{"laptop":[1, 2, 2, 3, 3, 3, 4, 4, 4, 4], "album_tablet":[1, 2, 2, 3, 3, 3], "portrait_tablet":[1, 2, 2], "mobile":[1]}};
     /* ]]> */
 </script>
-<script type='text/javascript' src='<?= Root('i/css/cherry-projects-scripts.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/slick.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/public.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/EasePack.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/TweenMax.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/dialog.min.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/waypoints.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/cherry-projects-scripts.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/slick.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/public.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/EasePack.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/TweenMax.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/dialog.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/waypoints.min.js')?>'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var elementorFrontendConfig = {"isEditMode":"", "is_rtl":"", "urls":{"assets":"https:\/\/ld-wp.template-help.com\/wordpress_58924_e_v3\/wp-content\/plugins\/elementor\/assets\/"}, "settings":{"page":[], "general":{"elementor_enable_lightbox_in_editor":"yes"}}, "post":{"id":4879, "title":"Home", "excerpt":""}};
     /* ]]> */
 </script>
-<script type='text/javascript' src='<?= Root('i/css/frontend.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/frontend.min.js')?>'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var jetElements = {"messages":{"invalidMail":"Please specify a valid e-mail"}, "jetParallaxSections":{"17dc9f1":[{"jet_parallax_layout_image":{"url":""}, "_id":"eb2e739", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "652f619":[{"jet_parallax_layout_image":{"url":""}, "_id":"3067b12", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "5632348":[{"jet_parallax_layout_image":{"url":""}, "_id":"3067b12", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "b3ae509":[{"jet_parallax_layout_image":{"url":""}, "_id":"3067b12", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "6b1d":[{"jet_parallax_layout_image":{"url":""}, "_id":"0494559", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "ce11705":[{"jet_parallax_layout_image":{"url":""}, "_id":"0494559", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "6af4":[{"jet_parallax_layout_image":{"url":""}, "_id":"def8652", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "3911":[{"jet_parallax_layout_image":{"url":""}, "_id":"830bf1b", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "7802":[{"jet_parallax_layout_image":{"url":""}, "_id":"1d66b11", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "3f6f":[{"jet_parallax_layout_image":{"url":""}, "_id":"e56aaa9", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "6714":[{"jet_parallax_layout_image":{"url":""}, "_id":"cb7f960", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "1575":[{"jet_parallax_layout_image":{"url":""}, "_id":"a116f37", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "68f3":[{"jet_parallax_layout_image":{"url":""}, "_id":"13afe71", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "45e5":[{"jet_parallax_layout_image":{"url":""}, "_id":"8cf6159", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "2686":[{"jet_parallax_layout_image":{"url":""}, "_id":"a40a999", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "584c522":[{"jet_parallax_layout_image":{"url":""}, "_id":"a40a999", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}], "bc767b9":[{"jet_parallax_layout_image":{"url":""}, "_id":"f0f2dde", "jet_parallax_layout_speed":{"unit":"%", "size":50}, "jet_parallax_layout_type":"scroll", "jet_parallax_layout_z_index":"", "jet_parallax_layout_bg_x":50, "jet_parallax_layout_bg_y":50, "jet_parallax_layout_bg_size":"auto", "jet_parallax_layout_animation_prop":"transform"}]}};
     /* ]]> */
 </script>
-<script type='text/javascript' src='<?= Root('i/css/jet-elements.js')?>'></script>
-<script type='text/javascript' src='<?= Root('i/css/jet-menu-widgets-scripts.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jet-elements.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jet-menu-widgets-scripts.js')?>'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var JetTabsSettings = {"ajaxurl":"https:\/\/ld-wp.template-help.com\/wordpress_58924_e_v3\/wp-admin\/admin-ajax.php"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='<?= Root('i/css/jet-tabs-frontend.min.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/jet-tabs-frontend.min.js')?>'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var cherryServices = {"ajaxurl":"https:\/\/ld-wp.template-help.com\/wordpress_58924_e_v3\/wp-admin\/admin-ajax.php", "loader":"<div class=\"cherry-spinner cherry-spinner-double-bounce\"><div class=\"cherry-double-bounce1\"><\/div><div class=\"cherry-double-bounce2\"><\/div><\/div>"};
     var cherryServices = {"ajaxurl":"https:\/\/ld-wp.template-help.com\/wordpress_58924_e_v3\/wp-admin\/admin-ajax.php", "loader":"<div class=\"cherry-spinner cherry-spinner-double-bounce\"><div class=\"cherry-double-bounce1\"><\/div><div class=\"cherry-double-bounce2\"><\/div><\/div>"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='<?= Root('i/css/cherry-services.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/cherry-services.js')?>'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var cherryTeam = {"ajaxurl":"https:\/\/ld-wp.template-help.com\/wordpress_58924_e_v3\/wp-admin\/admin-ajax.php", "loader":"<div class=\"cherry-spinner cherry-spinner-double-bounce\"><div class=\"cherry-double-bounce1\"><\/div><div class=\"cherry-double-bounce2\"><\/div><\/div>"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='<?= Root('i/css/cherry-team.js')?>'></script>
+<script type='text/javascript' src='<?= Root('i/js/cherry-team.js')?>'></script>
