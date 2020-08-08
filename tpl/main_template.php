@@ -72,14 +72,14 @@
         <link rel='stylesheet' id='jet-tabs-frontend-css'  href='<?= Root('i/css/jet-tabs-frontend-css.css') ?>' type='text/css' media='all' />
         <link rel='stylesheet' id='cherry-team-css'  href='<?= Root('i/css/cherry-team-css.css') ?>' type='text/css' media='all' />
         <link rel='stylesheet' id='cherry-team-grid-css'  href='<?= Root('i/css/cherry-team-grid-css.css') ?>' type='text/css' media='all' />
-        <!--n2css--><script type='text/javascript' src='<?= Root('i/css/jquery.js') ?>'></script>
-        <script type='text/javascript' src='<?= Root('i/css/jquery/jquery-migrate.min.js') ?>'></script>
+        <!--n2css--><script type='text/javascript' src='<?= Root('i/js/jquery.js') ?>'></script>
+        <script type='text/javascript' src='<?= Root('i/js/jquery/jquery-migrate.min.js') ?>'></script>
         <script type='text/javascript'>
             /* <![CDATA[ */
             var ecwidParams = {"useJsApiToOpenStoreCategoriesPages":""};
             /* ]]> */
         </script>
-        <script type='text/javascript' src='<?= Root('i/css/jquery/frontend.js') ?>'></script>
+        <script type='text/javascript' src='<?= Root('i/js/jquery/frontend.js') ?>'></script>
         
         <script type="text/javascript">
             window.ec = window.ec || Object();
