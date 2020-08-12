@@ -22,7 +22,7 @@
         $g_config['pdo']['databases'] = array
         (
             'db' => array(
-                'dsn' => 'mysql:host=localhost;dbname=bitarel;charset=utf8',
+                'dsn' => 'mysql:host=localhost;dbname=gpsite;charset=utf8',
                 'login' => 'root',
                 'pwd' => ''
             ),
@@ -34,8 +34,8 @@
         (
             'db' => array(
                 'dsn' => 'mysql:host=localhost;dbname=ca31197_bitarel;charset=utf8',
-                'login' => 'ca31197_bitarel',
-                'pwd' => 'gfsUsj200sj2Jhs'
+                'login' => '',
+                'pwd' => ''
             ),
         );
     }
