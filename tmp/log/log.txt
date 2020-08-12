@@ -1,0 +1,738 @@
+--- Error: 2020-08-12 20:45:39 ---
+
+Text notification:
+	subject: E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15 at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+	//gpsite/
+E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15
+Stack trace:
+#0 W:\domains\gpsite\lib\Db\Db_pdo.php(15): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\gpsite\core\init\db_and_models.php(15): Db_pdo->__construct()
+#2 W:\domains\gpsite\core\core.php(23): require_once('W:\\domains\\gpsi...')
+#3 W:\domains\gpsite\index.php(14): require_once('W:\\domains\\gpsi...')
+#4 {main}
+  thrown
+at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "gpsite",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "PATH" => "w:\modules\php\PHP_7.1\ext;w:\modules\php\PHP_7.1\pear;w:\modules\php\PHP_7.1\pear\bin;w:\modules\php\PHP_7.1;w:\modules\wget\bin;w:\modules\database\MariaDB-10.3\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64",
+        "SystemRoot" => "C:\WINDOWS",
+        "COMSPEC" => "C:\WINDOWS\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\WINDOWS",
+        "SERVER_SIGNATURE" => "",
+        "SERVER_SOFTWARE" => "Apache",
+        "SERVER_NAME" => "gpsite",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "REQUEST_SCHEME" => "http",
+        "CONTEXT_PREFIX" => "",
+        "CONTEXT_DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "SERVER_ADMIN" => "[no address given]",
+        "SCRIPT_FILENAME" => "W:/domains/gpsite/index.php",
+        "REMOTE_PORT" => "50107",
+        "REDIRECT_URL" => "/",
+        "REDIRECT_QUERY_STRING" => "q=",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "HEAD",
+        "QUERY_STRING" => "q=",
+        "REQUEST_URI" => "/",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME_FLOAT" => 1597261539.043,
+        "REQUEST_TIME" => 1597261539,
+        "argv" => array(
+            0 => "q=",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "",
+    )
+
+POST:
+    array(
+    )
+
+SESSION:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2020-08-12 20:45:51 ---
+
+Text notification:
+	subject: E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15 at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+	//gpsite/
+E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15
+Stack trace:
+#0 W:\domains\gpsite\lib\Db\Db_pdo.php(15): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\gpsite\core\init\db_and_models.php(15): Db_pdo->__construct()
+#2 W:\domains\gpsite\core\core.php(23): require_once('W:\\domains\\gpsi...')
+#3 W:\domains\gpsite\index.php(14): require_once('W:\\domains\\gpsi...')
+#4 {main}
+  thrown
+at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "gpsite",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_UPGRADE_INSECURE_REQUESTS" => "1",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "PATH" => "w:\modules\php\PHP_7.1\ext;w:\modules\php\PHP_7.1\pear;w:\modules\php\PHP_7.1\pear\bin;w:\modules\php\PHP_7.1;w:\modules\wget\bin;w:\modules\database\MariaDB-10.3\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64",
+        "SystemRoot" => "C:\WINDOWS",
+        "COMSPEC" => "C:\WINDOWS\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\WINDOWS",
+        "SERVER_SIGNATURE" => "",
+        "SERVER_SOFTWARE" => "Apache",
+        "SERVER_NAME" => "gpsite",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "REQUEST_SCHEME" => "http",
+        "CONTEXT_PREFIX" => "",
+        "CONTEXT_DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "SERVER_ADMIN" => "[no address given]",
+        "SCRIPT_FILENAME" => "W:/domains/gpsite/index.php",
+        "REMOTE_PORT" => "50111",
+        "REDIRECT_URL" => "/",
+        "REDIRECT_QUERY_STRING" => "q=",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=",
+        "REQUEST_URI" => "/",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME_FLOAT" => 1597261551.09,
+        "REQUEST_TIME" => 1597261551,
+        "argv" => array(
+            0 => "q=",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "",
+    )
+
+POST:
+    array(
+    )
+
+SESSION:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2020-08-12 20:49:57 ---
+
+Text notification:
+	subject: E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15 at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+	//gpsite/
+E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15
+Stack trace:
+#0 W:\domains\gpsite\lib\Db\Db_pdo.php(15): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\gpsite\core\init\db_and_models.php(15): Db_pdo->__construct()
+#2 W:\domains\gpsite\core\core.php(23): require_once('W:\\domains\\gpsi...')
+#3 W:\domains\gpsite\index.php(14): require_once('W:\\domains\\gpsi...')
+#4 {main}
+  thrown
+at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "gpsite",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_UPGRADE_INSECURE_REQUESTS" => "1",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "HTTP_COOKIE" => "PHPSESSID=96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+        "PATH" => "w:\modules\php\PHP_7.1\ext;w:\modules\php\PHP_7.1\pear;w:\modules\php\PHP_7.1\pear\bin;w:\modules\php\PHP_7.1;w:\modules\wget\bin;w:\modules\database\MariaDB-10.3\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64",
+        "SystemRoot" => "C:\WINDOWS",
+        "COMSPEC" => "C:\WINDOWS\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\WINDOWS",
+        "SERVER_SIGNATURE" => "",
+        "SERVER_SOFTWARE" => "Apache",
+        "SERVER_NAME" => "gpsite",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "REQUEST_SCHEME" => "http",
+        "CONTEXT_PREFIX" => "",
+        "CONTEXT_DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "SERVER_ADMIN" => "[no address given]",
+        "SCRIPT_FILENAME" => "W:/domains/gpsite/index.php",
+        "REMOTE_PORT" => "50252",
+        "REDIRECT_URL" => "/",
+        "REDIRECT_QUERY_STRING" => "q=",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=",
+        "REQUEST_URI" => "/",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME_FLOAT" => 1597261797.689,
+        "REQUEST_TIME" => 1597261797,
+        "argv" => array(
+            0 => "q=",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+        "PHPSESSID" => "96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+    )
+
+GET:
+    array(
+        "q" => "",
+    )
+
+POST:
+    array(
+    )
+
+SESSION:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2020-08-12 20:49:59 ---
+
+Text notification:
+	subject: E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15 at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+	//gpsite/
+E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15
+Stack trace:
+#0 W:\domains\gpsite\lib\Db\Db_pdo.php(15): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\gpsite\core\init\db_and_models.php(15): Db_pdo->__construct()
+#2 W:\domains\gpsite\core\core.php(23): require_once('W:\\domains\\gpsi...')
+#3 W:\domains\gpsite\index.php(14): require_once('W:\\domains\\gpsi...')
+#4 {main}
+  thrown
+at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "gpsite",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_UPGRADE_INSECURE_REQUESTS" => "1",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "HTTP_COOKIE" => "PHPSESSID=96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+        "PATH" => "w:\modules\php\PHP_7.1\ext;w:\modules\php\PHP_7.1\pear;w:\modules\php\PHP_7.1\pear\bin;w:\modules\php\PHP_7.1;w:\modules\wget\bin;w:\modules\database\MariaDB-10.3\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64",
+        "SystemRoot" => "C:\WINDOWS",
+        "COMSPEC" => "C:\WINDOWS\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\WINDOWS",
+        "SERVER_SIGNATURE" => "",
+        "SERVER_SOFTWARE" => "Apache",
+        "SERVER_NAME" => "gpsite",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "REQUEST_SCHEME" => "http",
+        "CONTEXT_PREFIX" => "",
+        "CONTEXT_DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "SERVER_ADMIN" => "[no address given]",
+        "SCRIPT_FILENAME" => "W:/domains/gpsite/index.php",
+        "REMOTE_PORT" => "50252",
+        "REDIRECT_URL" => "/",
+        "REDIRECT_QUERY_STRING" => "q=",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=",
+        "REQUEST_URI" => "/",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME_FLOAT" => 1597261799.806,
+        "REQUEST_TIME" => 1597261799,
+        "argv" => array(
+            0 => "q=",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+        "PHPSESSID" => "96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+    )
+
+GET:
+    array(
+        "q" => "",
+    )
+
+POST:
+    array(
+    )
+
+SESSION:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2020-08-12 20:52:08 ---
+
+Text notification:
+	subject: E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15 at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+	//gpsite/
+E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15
+Stack trace:
+#0 W:\domains\gpsite\lib\Db\Db_pdo.php(15): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\gpsite\core\init\db_and_models.php(15): Db_pdo->__construct()
+#2 W:\domains\gpsite\core\core.php(23): require_once('W:\\domains\\gpsi...')
+#3 W:\domains\gpsite\index.php(14): require_once('W:\\domains\\gpsi...')
+#4 {main}
+  thrown
+at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "gpsite",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_UPGRADE_INSECURE_REQUESTS" => "1",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "HTTP_COOKIE" => "PHPSESSID=96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+        "PATH" => "w:\modules\php\PHP_7.1\ext;w:\modules\php\PHP_7.1\pear;w:\modules\php\PHP_7.1\pear\bin;w:\modules\php\PHP_7.1;w:\modules\wget\bin;w:\modules\database\MariaDB-10.3\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64",
+        "SystemRoot" => "C:\WINDOWS",
+        "COMSPEC" => "C:\WINDOWS\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\WINDOWS",
+        "SERVER_SIGNATURE" => "",
+        "SERVER_SOFTWARE" => "Apache",
+        "SERVER_NAME" => "gpsite",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "REQUEST_SCHEME" => "http",
+        "CONTEXT_PREFIX" => "",
+        "CONTEXT_DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "SERVER_ADMIN" => "[no address given]",
+        "SCRIPT_FILENAME" => "W:/domains/gpsite/index.php",
+        "REMOTE_PORT" => "50309",
+        "REDIRECT_URL" => "/",
+        "REDIRECT_QUERY_STRING" => "q=",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=",
+        "REQUEST_URI" => "/",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME_FLOAT" => 1597261928.171,
+        "REQUEST_TIME" => 1597261928,
+        "argv" => array(
+            0 => "q=",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+        "PHPSESSID" => "96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+    )
+
+GET:
+    array(
+        "q" => "",
+    )
+
+POST:
+    array(
+    )
+
+SESSION:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2020-08-12 20:52:09 ---
+
+Text notification:
+	subject: E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15 at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+	//gpsite/
+E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in W:\domains\gpsite\lib\Db\Db_pdo.php:15
+Stack trace:
+#0 W:\domains\gpsite\lib\Db\Db_pdo.php(15): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 W:\domains\gpsite\core\init\db_and_models.php(15): Db_pdo->__construct()
+#2 W:\domains\gpsite\core\core.php(23): require_once('W:\\domains\\gpsi...')
+#3 W:\domains\gpsite\index.php(14): require_once('W:\\domains\\gpsi...')
+#4 {main}
+  thrown
+at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "gpsite",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_UPGRADE_INSECURE_REQUESTS" => "1",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "HTTP_COOKIE" => "PHPSESSID=96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+        "PATH" => "w:\modules\php\PHP_7.1\ext;w:\modules\php\PHP_7.1\pear;w:\modules\php\PHP_7.1\pear\bin;w:\modules\php\PHP_7.1;w:\modules\wget\bin;w:\modules\database\MariaDB-10.3\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64",
+        "SystemRoot" => "C:\WINDOWS",
+        "COMSPEC" => "C:\WINDOWS\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\WINDOWS",
+        "SERVER_SIGNATURE" => "",
+        "SERVER_SOFTWARE" => "Apache",
+        "SERVER_NAME" => "gpsite",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "REQUEST_SCHEME" => "http",
+        "CONTEXT_PREFIX" => "",
+        "CONTEXT_DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "SERVER_ADMIN" => "[no address given]",
+        "SCRIPT_FILENAME" => "W:/domains/gpsite/index.php",
+        "REMOTE_PORT" => "50309",
+        "REDIRECT_URL" => "/",
+        "REDIRECT_QUERY_STRING" => "q=",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=",
+        "REQUEST_URI" => "/",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME_FLOAT" => 1597261929.082,
+        "REQUEST_TIME" => 1597261929,
+        "argv" => array(
+            0 => "q=",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+        "PHPSESSID" => "96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+    )
+
+GET:
+    array(
+        "q" => "",
+    )
+
+POST:
+    array(
+    )
+
+SESSION:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2020-08-12 21:01:39 ---
+
+Text notification:
+	subject: E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bitarel' in W:\domains\gpsite\lib\Db\Db_pdo.php:15 at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+	//gpsite/
+E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bitarel' in W:\domains\gpsite\lib\Db\Db_pdo.php:15
+Stack trace:
+#0 W:\domains\gpsite\lib\Db\Db_pdo.php(15): PDO->__construct('mysql:host=loca...', 'mysql', 'mysql')
+#1 W:\domains\gpsite\core\init\db_and_models.php(15): Db_pdo->__construct()
+#2 W:\domains\gpsite\core\core.php(23): require_once('W:\\domains\\gpsi...')
+#3 W:\domains\gpsite\index.php(14): require_once('W:\\domains\\gpsi...')
+#4 {main}
+  thrown
+at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "gpsite",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_UPGRADE_INSECURE_REQUESTS" => "1",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "HTTP_COOKIE" => "PHPSESSID=96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+        "PATH" => "w:\modules\php\PHP_7.1\ext;w:\modules\php\PHP_7.1\pear;w:\modules\php\PHP_7.1\pear\bin;w:\modules\php\PHP_7.1;w:\modules\wget\bin;w:\modules\database\MariaDB-10.3\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64",
+        "SystemRoot" => "C:\WINDOWS",
+        "COMSPEC" => "C:\WINDOWS\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\WINDOWS",
+        "SERVER_SIGNATURE" => "",
+        "SERVER_SOFTWARE" => "Apache",
+        "SERVER_NAME" => "gpsite",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "REQUEST_SCHEME" => "http",
+        "CONTEXT_PREFIX" => "",
+        "CONTEXT_DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "SERVER_ADMIN" => "[no address given]",
+        "SCRIPT_FILENAME" => "W:/domains/gpsite/index.php",
+        "REMOTE_PORT" => "50439",
+        "REDIRECT_URL" => "/",
+        "REDIRECT_QUERY_STRING" => "q=",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=",
+        "REQUEST_URI" => "/",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME_FLOAT" => 1597262499.021,
+        "REQUEST_TIME" => 1597262499,
+        "argv" => array(
+            0 => "q=",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+        "PHPSESSID" => "96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+    )
+
+GET:
+    array(
+        "q" => "",
+    )
+
+POST:
+    array(
+    )
+
+SESSION:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2020-08-12 21:01:40 ---
+
+Text notification:
+	subject: E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bitarel' in W:\domains\gpsite\lib\Db\Db_pdo.php:15 at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+	//gpsite/
+E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bitarel' in W:\domains\gpsite\lib\Db\Db_pdo.php:15
+Stack trace:
+#0 W:\domains\gpsite\lib\Db\Db_pdo.php(15): PDO->__construct('mysql:host=loca...', 'mysql', 'mysql')
+#1 W:\domains\gpsite\core\init\db_and_models.php(15): Db_pdo->__construct()
+#2 W:\domains\gpsite\core\core.php(23): require_once('W:\\domains\\gpsi...')
+#3 W:\domains\gpsite\index.php(14): require_once('W:\\domains\\gpsi...')
+#4 {main}
+  thrown
+at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "gpsite",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_UPGRADE_INSECURE_REQUESTS" => "1",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "HTTP_COOKIE" => "PHPSESSID=96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+        "PATH" => "w:\modules\php\PHP_7.1\ext;w:\modules\php\PHP_7.1\pear;w:\modules\php\PHP_7.1\pear\bin;w:\modules\php\PHP_7.1;w:\modules\wget\bin;w:\modules\database\MariaDB-10.3\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64",
+        "SystemRoot" => "C:\WINDOWS",
+        "COMSPEC" => "C:\WINDOWS\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\WINDOWS",
+        "SERVER_SIGNATURE" => "",
+        "SERVER_SOFTWARE" => "Apache",
+        "SERVER_NAME" => "gpsite",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "REQUEST_SCHEME" => "http",
+        "CONTEXT_PREFIX" => "",
+        "CONTEXT_DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "SERVER_ADMIN" => "[no address given]",
+        "SCRIPT_FILENAME" => "W:/domains/gpsite/index.php",
+        "REMOTE_PORT" => "50439",
+        "REDIRECT_URL" => "/",
+        "REDIRECT_QUERY_STRING" => "q=",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=",
+        "REQUEST_URI" => "/",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME_FLOAT" => 1597262500.006,
+        "REQUEST_TIME" => 1597262500,
+        "argv" => array(
+            0 => "q=",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+        "PHPSESSID" => "96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+    )
+
+GET:
+    array(
+        "q" => "",
+    )
+
+POST:
+    array(
+    )
+
+SESSION:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2020-08-12 21:01:41 ---
+
+Text notification:
+	subject: E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bitarel' in W:\domains\gpsite\lib\Db\Db_pdo.php:15 at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+	//gpsite/
+E_ERROR: Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bitarel' in W:\domains\gpsite\lib\Db\Db_pdo.php:15
+Stack trace:
+#0 W:\domains\gpsite\lib\Db\Db_pdo.php(15): PDO->__construct('mysql:host=loca...', 'mysql', 'mysql')
+#1 W:\domains\gpsite\core\init\db_and_models.php(15): Db_pdo->__construct()
+#2 W:\domains\gpsite\core\core.php(23): require_once('W:\\domains\\gpsi...')
+#3 W:\domains\gpsite\index.php(14): require_once('W:\\domains\\gpsi...')
+#4 {main}
+  thrown
+at W:\domains\gpsite\lib\Db\Db_pdo.php on line 15
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "gpsite",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_UPGRADE_INSECURE_REQUESTS" => "1",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "HTTP_COOKIE" => "PHPSESSID=96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+        "PATH" => "w:\modules\php\PHP_7.1\ext;w:\modules\php\PHP_7.1\pear;w:\modules\php\PHP_7.1\pear\bin;w:\modules\php\PHP_7.1;w:\modules\wget\bin;w:\modules\database\MariaDB-10.3\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1\bin;w:\modules\http\Apache_2.4-PHP_7.0-7.1;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\WINDOWS\SysWOW64",
+        "SystemRoot" => "C:\WINDOWS",
+        "COMSPEC" => "C:\WINDOWS\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\WINDOWS",
+        "SERVER_SIGNATURE" => "",
+        "SERVER_SOFTWARE" => "Apache",
+        "SERVER_NAME" => "gpsite",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "REQUEST_SCHEME" => "http",
+        "CONTEXT_PREFIX" => "",
+        "CONTEXT_DOCUMENT_ROOT" => "W:/domains/gpsite",
+        "SERVER_ADMIN" => "[no address given]",
+        "SCRIPT_FILENAME" => "W:/domains/gpsite/index.php",
+        "REMOTE_PORT" => "50439",
+        "REDIRECT_URL" => "/",
+        "REDIRECT_QUERY_STRING" => "q=",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=",
+        "REQUEST_URI" => "/",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME_FLOAT" => 1597262501.131,
+        "REQUEST_TIME" => 1597262501,
+        "argv" => array(
+            0 => "q=",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+        "PHPSESSID" => "96htfg6nfisvu3ttc2kf97gcmfmjs6eu",
+    )
+
+GET:
+    array(
+        "q" => "",
+    )
+
+POST:
+    array(
+    )
+
+SESSION:
+    array(
+    )
+
+
+------------------------------------
+

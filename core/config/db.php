@@ -23,8 +23,8 @@
         (
             'db' => array(
                 'dsn' => 'mysql:host=localhost;dbname=bitarel;charset=utf8',
-                'login' => 'root',
-                'pwd' => ''
+                'login' => 'mysql',
+                'pwd' => 'mysql'
             ),
         );
     }
