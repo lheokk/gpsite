@@ -96,7 +96,7 @@
         <!-- extraPacker -->
     </head>
     <body class="home page-template-default page page-id-4879 header-layout-fullwidth content-layout-fullwidth footer-layout-fullwidth blog-masonry-2-cols position-fullwidth sidebar-1-4 elementor-default elementor-page elementor-page-4879">
-        <?# IncludeCom('tpl_coms/head')?>
+        <? IncludeCom('tpl_coms/head')?>
         <!--контент-->
         <?= $content ?>
         <!--контент закончился-->
